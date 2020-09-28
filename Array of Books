@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class Main{
+public class ArrayOfBooks{
     public static void main (String[] args) {
         Scanner sc=new Scanner(System.in);
         Book[] book=new Book[30];
