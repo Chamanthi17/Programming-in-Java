@@ -6,7 +6,7 @@ public class Experiment_8{
 	    Scanner sc =new Scanner(System.in);
 		System.out.println("Enter the user Name");
 		user_name= sc.next();
-		if(Pattern.matches("[a-zA-Z]+[0-9]+",user_name))
+		if(Pattern.matches("[a-zA-Z]+",user_name))
 		    System.out.println(user_name+" is valid user name");
 		else
 		    System.out.println(user_name+" is invalid user name");
