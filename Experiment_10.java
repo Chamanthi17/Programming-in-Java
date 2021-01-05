@@ -43,7 +43,7 @@ class Circle extends Shape{
 }
 
 
-public class Experiment_11
+public class Experiment_10
 {
 	public static void main(String[] args) {
 		Rectangle rc = new Rectangle();
